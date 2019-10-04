@@ -79,3 +79,6 @@ header, footer{
 
 
 /*styles specific to the main business card content*/
+h2,p{
+    margin: 0;
+}
