@@ -71,7 +71,11 @@ body {
 
 /*styles specific to the header and footer*/
 
-
+header, footer{
+    height: 1.5625em;
+    content: 0.9375em;
+    padding: 0.625em, 0.625em, 0.625em, 0.625em; 
+}
 
 
 /*styles specific to the main business card content*/
