@@ -10,7 +10,7 @@ calculated specificities
 
 /*
 matching rulesets with selectors
-.card article img{
+.card {
   width: 35em;
   height: 22em;
   margin: 5em auto;
@@ -29,7 +29,7 @@ matching rulesets with selectors
   border-radius: 0 0 1.5em 1.5em;
 }
 
-.card{
+.card article img{
   max-height: 100%
   float: right;
 }
@@ -46,16 +46,17 @@ body {
   }
 /*styles specific to the setup of the card container*/
 
-.card article img{
+.card {
     width: 35em;
     height: 22em;
-    margin: 5em auto;
+    margin: 20em 20em 5em 60em;
     background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
+    line-height:22px;
   }
 
-  .card{
+  .card article img{
     max-height: 100%;
     float: right;
   }
@@ -72,13 +73,40 @@ body {
 /*styles specific to the header and footer*/
 
 header, footer{
-    height: 1.5625em;
-    content: 0.9375em;
+    height: 5em;
+    content: 1.875em;
     padding: 0.625em, 0.625em, 0.625em, 0.625em; 
 }
 
 
 /*styles specific to the main business card content*/
 h2,p{
-    margin: 0;
+    margin: 0em;
+    padding:10px 10px 10px 5px;
+}
+.card article p{
+  margin:0px 0px 0px 0px;
+  padding:10px 10px 10px 22px;
+}
+article  {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+footer p{
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin:0px 0px 0px 0px;
+  padding: 10px 10px 10px 21px;
+  
+}
+header h2{
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-left: 1em;
+}
+article p{
+  margin-left: 1em;
+  color: antiquewhite;
+  line-height: 15px;
+  
 }
